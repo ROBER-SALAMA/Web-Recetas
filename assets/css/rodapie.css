@@ -6,3 +6,17 @@
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
+
+@media (min-width: 0px) {
+    .rodapie{
+        flex-direction: column;
+        padding-left: 3.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .rodapie{
+        flex-direction: row;
+    }
+}

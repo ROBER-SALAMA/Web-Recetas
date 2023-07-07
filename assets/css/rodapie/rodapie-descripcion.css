@@ -4,3 +4,14 @@
     margin-left: 5rem;
     color: #8c8888;
 }
+
+@media (min-width: 0px) {
+    .rodapie__descripcion{
+        margin-right: 5.3rem;
+    }
+}
+@media (min-width: 768px) {
+    .rodapie__descripcion{
+        margin-left: 5rem;
+    }
+}
