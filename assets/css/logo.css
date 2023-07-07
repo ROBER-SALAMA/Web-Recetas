@@ -1,0 +1,13 @@
+/* esto hce que en dispositivos mas pequeños desaparesca el logo */
+@media screen and (min-width:0) {
+    .logo{
+        display: none;
+    }
+}
+
+/* esto hace qu en pantallas mas grandes el logo aparesca */
+@media screen and (min-width:768px) {
+    .logo{
+        display: block;
+    }
+}
